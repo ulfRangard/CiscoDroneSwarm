@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" id="UHD_Knoten" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-30 -30 3900 2220" xml:space="preserve">
+<title> Unendlicher Knoten Animation </title>
+<rect id="canvas" x="0" y="0" width="3840" height="2160" style="fill:#fff;stroke:#000" />
+<line id="horiz_x" x1="0" y1="1080" x2="3840" y2="1080" style="stroke:#000" />
+<line id="verti_y" x1="1920" y1="0" x2="1920" y2="2160" style="stroke:#000" />
+
+<polygon id="Knoten_center" style="stroke:#00f;fill:rgba(0,0,0,0)"
+    points="1920,80 3380,1540 3840,1080 3380,620 1920,2080 460,620 0,1080 460,1540" />
+
+<circle id="Flying_Spot" cx="0" cy="0" r="40">
+    <animateTransform id="Clockwise" attributeName="transform" type="translate" begin="1.0s" dur="10.0s" repeatCount="indefinite"
+    values="1920,80; 3380,1540; 3840,1080; 3380,620; 1920,2080; 460,620; 0,1080; 460,1540; 1920,80"/>
+</circle>
+
+</svg>

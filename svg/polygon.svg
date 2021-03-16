@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1920px" height="1080px" xml:space="preserve">
+
+    
+    <defs>
+        
+    </defs>
+
+	<polygon points="1100,900 800,900 613,665 680,373 950,242 1220,373 1287,665 " style="fill:none;stroke:red;stroke-width:1" />
+
+    <polyline points="1100,900 680,373 1287,665 613,665 1220,373 800,900 950,242 1100,900" style="fill:none;stroke:green;stroke-width:1" />
+
+    <circle cx="1100" cy="900" r="20" fill="#4D01EB">
+        <animate id="anim1" attributeName="cx" from="1100" to="680" begin="1s;anim7.end" dur="3s"/>
+        <animate id="anim1" attributeName="cy" from="900" to="373" begin="1s;anim7.end" dur="3s"/>
+        <animate id="anim1" attributeName="fill" from="#4D01EB" to="#47EB00" begin="1s;anim7.end" dur="3s"/>
+
+        <animate id="anim2" attributeName="cx" from="680" to="1287" begin="anim1.end" dur="3s"/>
+        <animate id="anim2" attributeName="cy" from="373" to="665" begin="anim1.end" dur="3s"/>
+        <animate id="anim2" attributeName="fill" from="#47EB00" to="#EB01CD" begin="anim1.end" dur="3s"/>
+
+        <animate id="anim3" attributeName="cx" from="1287" to="613" begin="anim2.end" dur="3s"/>
+        <animate id="anim3" attributeName="cy" from="665" to="665" begin="anim2.end" dur="3s"/>
+        <animate id="anim3" attributeName="fill" from="#EB01CD" to="#00EBBB" begin="anim2.end" dur="3s"/>
+
+        <animate id="anim4" attributeName="cx" from="613" to="1220" begin="anim3.end" dur="3s"/>
+        <animate id="anim4" attributeName="cy" from="665" to="373" begin="anim3.end" dur="3s"/>
+        <animate id="anim4" attributeName="fill" from="#00EBBB" to="#EB4700" begin="anim3.end" dur="3s"/>
+
+        <animate id="anim5" attributeName="cx" from="1220" to="800" begin="anim4.end" dur="3s"/>
+        <animate id="anim5" attributeName="cy" from="373" to="900" begin="anim4.end" dur="3s"/>
+        <animate id="anim5" attributeName="fill" from="#EB4700" to="#0093EB" begin="anim4.end" dur="3s"/>
+
+        <animate id="anim6" attributeName="cx" from="800" to="950" begin="anim5.end" dur="3s"/>
+        <animate id="anim6" attributeName="cy" from="900" to="242" begin="anim5.end" dur="3s"/>
+        <animate id="anim6" attributeName="fill" from="#0093EB" to="#EBB800" begin="anim5.end" dur="3s"/>
+
+        <animate id="anim7" attributeName="cx" from="950" to="1100" begin="anim6.end" dur="3s"/>
+        <animate id="anim7" attributeName="cy" from="242" to="900" begin="anim6.end" dur="3s"/>
+        <animate id="anim7" attributeName="fill" from="#EBB800" to="#4D01EB" begin="anim6.end" dur="3s"/>
+    </circle>
+
+</svg>
